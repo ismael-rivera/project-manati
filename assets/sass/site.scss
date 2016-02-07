@@ -12,8 +12,20 @@ body {
     // -o-background-size: cover;
 }
 
+.lborder{border-left: 1px solid #ccc;}
+.rborder{border-right: 1px solid #ccc;}
+.tborder{border-top: 1px solid #ccc;}
+.bborder{border-bottom: 1px solid #ccc;}
+.fborder{border: 1px solid #ccc;}
 
+#featured{
+	margin-top:40px
+}
 
+#feat1{height:450px}
+#feat2{height:300px}
+// #feat3{height:450px}
+// #feat4{height:450px}
 
 
 
