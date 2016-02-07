@@ -61,7 +61,7 @@
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
       <div class="container">
-        <h1>Hello, world!</h1>
+        <h1>Hello, fucks!</h1>
         <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
         <p><a class="btn btn-primary btn-lg" href="http://getbootstrap.com/examples/jumbotron/#" role="button">Learn more »</a></p>
       </div>
@@ -103,6 +103,6 @@
     <script src="./Jumbotron Template for Bootstrap_files/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="./Jumbotron Template for Bootstrap_files/ie10-viewport-bug-workaround.js"></script>
-  
+    <script src="//localhost:35729/livereload.js"></script>
 
 </body></html>
