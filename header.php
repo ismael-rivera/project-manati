@@ -2,17 +2,38 @@
 
   <body data-pinterest-extension-installed="cr1.39.1">
 
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="http://getbootstrap.com/examples/jumbotron/#">AwesomeBlogger</a>
+    
+
+    <div id="sessions" class="container-fluid navbar-fixed-top fborder">
+        <div class="row">
+          <div class="col-sm-12">
+          <a class="blog-nav-item active" href="http://getbootstrap.com/examples/blog/#">Home</a>
+          <a class="blog-nav-item" href="http://getbootstrap.com/examples/blog/#">New features</a>
+          <a class="blog-nav-item" href="http://getbootstrap.com/examples/blog/#">Press</a>
+          <a class="blog-nav-item" href="http://getbootstrap.com/examples/blog/#">New hires</a>
+          <a class="blog-nav-item" href="http://getbootstrap.com/examples/blog/#">About</a>
+          </div>
         </div>
-        <div id="navbar" class="navbar-collapse collapse"></div><!--/.navbar-collapse -->
-      </div>
-    </nav>
+    </div>
+    <div id="header" class="container">
+        <div class="row">
+          <div class="col-md-4 fborder">
+          <a id="logo" class="blog-nav-item active" href="http://getbootstrap.com/examples/blog/#">Home</a>
+          </div>
+          <div id="header_ad" class="col-md-8 fborder">
+          <a class="blog-nav-item active" href="http://getbootstrap.com/examples/blog/#">Home</a>
+          </div>
+        </div>  
+        <div class="row">
+          <div class="col-sm-12">
+          <a class="blog-nav-item active" href="http://getbootstrap.com/examples/blog/#">Home</a>
+          <a class="blog-nav-item" href="http://getbootstrap.com/examples/blog/#">New features</a>
+          <a class="blog-nav-item" href="http://getbootstrap.com/examples/blog/#">Press</a>
+          <a class="blog-nav-item" href="http://getbootstrap.com/examples/blog/#">New hires</a>
+          <a class="blog-nav-item" href="http://getbootstrap.com/examples/blog/#">About</a>
+          </div>
+        </div>
+    </div>      
+
+
+

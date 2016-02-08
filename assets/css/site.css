@@ -8895,3 +8895,21 @@ button.close {
 #feat2 {
   height: 300px;
 }
+
+/* line 29, ../sass/site.scss */
+#logo {
+  height: 90px;
+  width: 245px;
+}
+
+/* line 34, ../sass/site.scss */
+#header_ad {
+  height: 90px;
+  width: 728px;
+}
+
+/* line 39, ../sass/site.scss */
+.blog-masthead {
+  -webkit-box-shadow: inset 0 -2px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
