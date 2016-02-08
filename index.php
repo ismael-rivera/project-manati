@@ -32,11 +32,69 @@
         </div>
       </div>
     </div>
-      <hr>
-
-    <div id="featured" class="container fborder"></div>  
-
       
+    <hr>
+
+    <div id="content-section" class="container fborder">
+        <div class="row">
+              <div id="content" class="col-sm-8 rborder">
+
+
+                <!-- article-web-component BEGIN -->
+                <div class="row">
+                  <div id="article_pic" class="col-sm-4"></div>
+                  <div id="article_link" class="col-sm-8 lborder">
+                    <h2><a class="article_link_title" href="http://getbootstrap.com/examples/blog/#">Home Gets Evaporated in Front of Owners</a></h2>
+                    <p class="excerpt">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+                  </div>
+                </div>
+                <!-- article-web-component END -->
+                <div class="row">
+                  <div id="article_pic" class="col-sm-4"></div>
+                  <div id="article_link" class="col-sm-8 lborder">
+                    <h2><a class="article_link_title" href="http://getbootstrap.com/examples/blog/#">Home Gets Evaporated in Front of Owners</a></h2>
+                    <p class="excerpt">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+                  </div>
+                </div>
+                <!-- article-web-component BEGIN -->
+                <div class="row">
+                  <div id="article_pic" class="col-sm-4"></div>
+                  <div id="article_link" class="col-sm-8 lborder">
+                    <h2><a class="article_link_title" href="http://getbootstrap.com/examples/blog/#">Home Gets Evaporated in Front of Owners</a></h2>
+                    <p class="excerpt">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+                  </div>
+                </div>
+                <!-- article-web-component END -->
+                <!-- article-web-component BEGIN -->
+                <div class="row">
+                  <div id="article_pic" class="col-sm-4"></div>
+                  <div id="article_link" class="col-sm-8 lborder">
+                    <h2><a class="article_link_title" href="http://getbootstrap.com/examples/blog/#">Home Gets Evaporated in Front of Owners</a></h2>
+                    <p class="excerpt">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+                  </div>
+                </div>
+                <!-- article-web-component END -->
+                <!-- article-web-component BEGIN -->
+                <div class="row">
+                  <div id="article_pic" class="col-sm-4"></div>
+                  <div id="article_link" class="col-sm-8 lborder">
+                    <h2><a class="article_link_title" href="http://getbootstrap.com/examples/blog/#">Home Gets Evaporated in Front of Owners</a></h2>
+                    <p class="excerpt">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+                  </div>
+                </div>
+                <!-- article-web-component END -->
+
+
+              </div>
+              <div id="sidebar" class="col-sm-4">
+              </div>
+        </div> 
+    </div>
+
+    <hr>
+
+    <div id="ads" class="container fborder"></div>
+
 
 <?php require("footer.php"); ?>
 <?php require("html_footer.php"); ?>
