@@ -1,7 +1,6 @@
 # Directories #
 #######################
-node_modules/
-wordpress/
+stg1/node_modules/
 xtras/
 .sass-cache/
 config.rb

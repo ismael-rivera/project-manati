@@ -1,0 +1,68 @@
+@charset "UTF-8";
+/* CSS Document */
+/*---------------------Homepage---------------------*/
+/* line 6, ../sass/tables.scss */
+#prj-listing-block {
+  width: 100%;
+  background-color: #D7DFE2;
+  border: 1px solid #333;
+  display: table;
+  float: right;
+}
+
+/* line 13, ../sass/tables.scss */
+table#project-board {
+  border-collapse: collapse;
+  width: 100%;
+  padding: 0%;
+  margin: auto;
+  float: right;
+  border: 1px solid #80C0DD;
+}
+
+/* line 21, ../sass/tables.scss */
+table#project-board th {
+  padding: 10px;
+  background-color: #416271;
+  color: #fff;
+}
+
+/* line 26, ../sass/tables.scss */
+table#project-board tr {
+  border-top: 1px solid #80C0DD;
+  border-bottom: 1px solid #80C0DD;
+}
+
+/* line 30, ../sass/tables.scss */
+table#project-board td {
+  padding: 10px;
+  border: 1px dotted #D5D5D5;
+  font-size: 13px;
+  text-align: center;
+}
+
+/* line 36, ../sass/tables.scss */
+#post-header {
+  background: #FAFBFC;
+  display: table;
+  width: 100%;
+}
+
+/* line 41, ../sass/tables.scss */
+table#home-login {
+  margin-top: 40px;
+  display: block;
+  height: 100%;
+  width: 40%;
+  float: right;
+}
+
+/* line 48, ../sass/tables.scss */
+table#home-login td {
+  padding: 8px 0 8px 0;
+}
+
+/* line 51, ../sass/tables.scss */
+table#project-board {
+  background: #fff;
+}

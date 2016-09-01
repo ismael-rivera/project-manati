@@ -1,0 +1,90 @@
+<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+
+class Signup extends MY_Controller {
+	
+	
+	public $pagebanner = false;
+	
+	
+	function __construct(){
+		parent::__construct();
+		$this->loadpageviews('signup');
+		
+	}
+	
+	public function index(){
+
+		$this->form_validation->set_rules('firstname', 'Firstname', 'trim|required|alpha|min_length[2]|max_length[50]');
+		$this->form_validation->set_rules('lastname', 'Lastname', 'trim|required|alpha|min_length[2]|max_length[50]');
+		$this->form_validation->set_rules('username', 'Lastname', 'trim|required|alpha|min_length[2]|max_length[50]');
+		$this->form_validation->set_rules('email', 'Email', 'required|trim|valid_email|is_unique[users.email]');
+	    $this->form_validation->set_rules('password', 'Password', 'required|trim');
+    	$this->form_validation->set_rules('cpassword', 'Retype', 'required|trim|matches[password]');
+
+		
+		if ($this -> form_validation -> run()) {
+        $key = md5(uniqid());
+
+        $this -> load -> library('email', array('mailtype' => 'html'));
+        $this -> load -> model('users');
+        $this -> email -> from('', "");
+        $this -> email -> to($this -> input -> post('email'));
+        $this -> email -> subject('Confirm your account.');
+        $message = "<p>Thank you for signing up!</p>";
+        $message = "<p><a href='" . base_url() . "user/activate/$key'>Click here</a> to confirm your account.</p>";
+        $this -> email -> message($message);
+        if ($this -> users -> add_temp_user($key)) {
+            if ($this -> email -> send()) {
+                echo "The email has been sent!";
+            } else {
+                echo "Could not send the email.";
+            }
+        } else {
+            echo "Problem adding user to database.";
+        }
+    } else {
+        $this->load->view('signup');
+    }
+		
+     }
+   
+    public function process_form(){
+		
+				/*if (class_exists('CI_Form_validation')) {
+					$this->form_validation->test_this_method();
+				}*/
+				
+				if ($this->form_validation->run() == FALSE)
+                {
+                        $this->loadpageviews('signup');
+                }
+                else
+                {
+                        $this->loadpageviews('registration_success');
+                }
+                
+	 }
+	 
+	  function signup_success(){
+		
+		
+	 }		
+
+	
+	
+	
+	
+	
+
+    
+	
+	
+	
+		
+		
+	
+	
+		
+		
+
+}

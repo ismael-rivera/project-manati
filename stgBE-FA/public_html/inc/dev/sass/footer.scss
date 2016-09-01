@@ -1,0 +1,32 @@
+#footer{
+	li{
+		list-style-type: none;
+		a{
+			padding: 3px;
+			color: #93C83E;
+		}
+		a:hover{
+			color: #fff;
+		}	
+	}
+
+}
+
+#subfooter{
+	li{
+		display: inline-block;
+	}
+
+}
+
+#subfooter-wrapper{
+  padding: 14px 0px 12px 0px;
+}
+
+#footer-wrapper, #sessions-wrapper{
+	background-color:#333;
+	color: #fff;
+}
+#footer-wrapper{
+  padding: 50px 0px 60px 0px;
+}

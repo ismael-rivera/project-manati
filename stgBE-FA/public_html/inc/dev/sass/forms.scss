@@ -1,0 +1,23 @@
+@import "basefiles/base";
+@charset "UTF-8";
+/* CSS Document */
+
+input.form-control, 
+select.form-control,
+input.input-file {
+ margin: 10px 0px;
+}
+
+#project-create div.form-group{
+	padding:20px 0px;
+	border:1px solid #ebebeb;
+}
+
+label.control-label{
+ //border: 1px solid #f00;	
+ padding: 15px 0px 20px 0px;
+}
+
+.lbl-col{
+ text-align: right;
+}

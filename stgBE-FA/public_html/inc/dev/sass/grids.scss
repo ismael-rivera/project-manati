@@ -1,0 +1,53 @@
+@import "basefiles/base";
+/*grids*/
+
+.container, .wrapper{
+  margin:0%;
+  padding:0%;
+  clear: both;
+  width: 100%;
+  position: relative;
+  overflow: visible;
+  } 
+
+.container-tbl, .wrapper-tbl{
+@extend .container;
+display:table;
+ }
+
+.grid{
+margin-right: auto;
+margin-left: auto;  
+padding: 0px 50px 0px 50px; 
+//height:100%;
+//border: 1px solid #c00;
+  @include screen(1301px, 1360px) {
+    width: 1200px;
+  }
+  @include screen(1201px, 1300px) {
+    width: 1100px;
+  }
+  @include max-screen(1200px) {
+    max-width: 1020px;
+  }
+  @include screen(1024px, 1199px) {
+    max-width: 960px;
+  }
+  @include screen(960px, 1023px) {
+    width: 100%;
+    max-width: 860px;
+  }
+  @include screen(800px, 959px) {
+    max-width: 760px;
+  }
+  @include screen(320px, 799px) {
+    width: 100%;
+    padding:0px 20px 0px 20px;
+  }
+  @include screen(480px, 599px) {
+    width: 100%;
+    max-width:420px;  
+  }
+
+ 
+} 

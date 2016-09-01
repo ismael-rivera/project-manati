@@ -1,0 +1,24 @@
+@charset "UTF-8";
+/* CSS Document */
+/* line 7, ../sass/forms.scss */
+input.form-control,
+select.form-control,
+input.input-file {
+  margin: 10px 0px;
+}
+
+/* line 11, ../sass/forms.scss */
+#project-create div.form-group {
+  padding: 20px 0px;
+  border: 1px solid #ebebeb;
+}
+
+/* line 16, ../sass/forms.scss */
+label.control-label {
+  padding: 15px 0px 20px 0px;
+}
+
+/* line 21, ../sass/forms.scss */
+.lbl-col {
+  text-align: right;
+}

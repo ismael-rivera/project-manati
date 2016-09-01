@@ -1,0 +1,41 @@
+@import "basefiles/base";
+@charset "UTF-8";
+/* CSS Document */
+
+/*----------------------Home-menu-------------------------*/
+#menu_wrapper{
+	background-color: #416271;
+	padding-top:10px;
+	}
+.menu{
+	height: 62px;
+	padding: 0px;
+	clear: both;
+	border: 1px solid #fff;
+}
+.menu ul{
+	list-style: none;
+	margin: auto;
+	display: block;
+}
+.menu ul li{
+list-style:none;
+display:inline;
+float:right;
+width:auto;
+height:42px;
+padding:0px;
+line-height:62px; 
+font-family:Arial, Helvetica, sans-serif; 
+font-size:13px;
+}
+.menu ul li a{
+
+}
+.menu ul li a:hover{
+
+}
+.menu ul li a.current{
+
+}
+

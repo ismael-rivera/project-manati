@@ -1,0 +1,72 @@
+@import "basefiles/base";
+
+.tracer{
+	//border: 1px solid #C00;
+	}
+
+.container{
+	//border:1px solid #000;
+}
+
+.grid{
+	//border:1px solid $light-blue;
+}
+
+
+$class-slug: pad !default;
+$class-slug-m: push !default;
+$spacer-wrapper-height: swh !default;
+
+@for $i from 1 through 5 {
+  .#{$spacer-wrapper-height}-#{$i*10}{
+    height: $i*10px;
+  }
+  .#{$class-slug}-#{$i*10}{
+    padding: $i*10px;
+	}
+  .#{$class-slug}T-#{$i*10}{
+    padding-top: $i*10px;
+	}
+  .#{$class-slug}R-#{$i*10}{
+    padding-right: $i*10px;
+	}
+  .#{$class-slug}B-#{$i*10}{
+    padding-bottom: $i*10px;
+	}
+  .#{$class-slug}L-#{$i*10}{
+    padding-left: $i*10px;
+	}
+  .#{$class-slug-m}-#{$i*10}{
+    margin: $i*10px;
+	}
+  .#{$class-slug-m}T-#{$i*10}{
+    margin-top: $i*10px;
+	}
+  .#{$class-slug-m}R-#{$i*10}{
+    margin-right: $i*10px;
+	}
+  .#{$class-slug-m}B-#{$i*10}{
+    margin-bottom: $i*10px;
+	}
+  .#{$class-slug-m}L-#{$i*10}{
+    margin-left: $i*10px;
+	}				
+}	
+
+.disable-select {
+  -webkit-user-select: none;  
+  -moz-user-select: none;    
+  -ms-user-select: none;      
+  user-select: none;
+}
+
+.content{
+  padding-bottom: 50px; 
+}
+
+
+
+
+
+
+
