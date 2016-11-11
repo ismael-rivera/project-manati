@@ -9,8 +9,6 @@
 
     <!-- Le styles -->
     <link rel="stylesheet" type="text/css" href="<?php echo base_url('inc/dev/css/libs/bootstrap.css'); ?>" >
-    <link rel="stylesheet" type="text/css" href="<?php echo base_url('inc/dev/css/libs/bootstrap-theme.css'); ?>" >
-    <link rel="stylesheet" type="text/css" href="<?php echo base_url('inc/dev/css/libs/bootstrap_legacy.css'); ?>">
     <link rel="stylesheet" type="text/css" href="<?php echo base_url('inc/dev/css/global.css'); ?>" media="screen">
     <link rel="stylesheet" type="text/css" href="<?php echo base_url('inc/dev/css/menu.css'); ?>" media="screen">
     <link rel="stylesheet" type="text/css" href="<?php echo base_url('inc/dev/css/styles.css'); ?>" media="screen">
