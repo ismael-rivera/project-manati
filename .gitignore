@@ -2,7 +2,6 @@
 #######################
 stgBE-FA/stg1/node_modules/
 stgBE-FA/node_modules/
-
 xtras/
 .sass-cache/
 config.rb
@@ -13,6 +12,7 @@ README.txt
 #######################
 config.rb
 Gruntfile.js
+
 
 # Compiled source #
 ###################
