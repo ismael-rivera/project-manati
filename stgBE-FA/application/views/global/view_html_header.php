@@ -1,6 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
+<!doctype html>
+<html lang="en"><head>
     <meta charset="utf-8">
     <title>CrowdOrchid Project</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +7,7 @@
     <meta name="author" content="">
 
     <!-- Le styles -->
-    <link rel="stylesheet" type="text/css" href="<?php echo base_url('inc/dev/css/libs/bootstrap.css'); ?>" >
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url('inc/dev/css/libs/bootstrap.css'); ?>">
     <link rel="stylesheet" type="text/css" href="<?php echo base_url('inc/dev/css/global.css'); ?>" media="screen">
     <link rel="stylesheet" type="text/css" href="<?php echo base_url('inc/dev/css/menu.css'); ?>" media="screen">
     <link rel="stylesheet" type="text/css" href="<?php echo base_url('inc/dev/css/styles.css'); ?>" media="screen">
@@ -18,7 +17,6 @@
     <link rel="stylesheet" type="text/css" href="<?php echo base_url('inc/dev/css/footer.css'); ?>" media="screen">
     <link rel="stylesheet" type="text/css" href="<?php echo base_url('inc/dev/css/forms.css'); ?>" media="screen">
     <link rel="stylesheet" type="text/css" href="<?php echo base_url('inc/dev/css/typography.css'); ?>" media="screen">
-
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
